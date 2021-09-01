@@ -17,7 +17,7 @@ Project Instructors
 
 
 
-## PhD Students
+# PhD Students
 
 * ## [Salsabil Arabi](https://ischool.wisc.edu/blog/staff/arabi-salsabil/)
 
