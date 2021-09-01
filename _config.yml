@@ -13,7 +13,7 @@ name                     : &name "Meta-Science Research Lab"
 description              : &description "The Metascience Research Lab"
 url                      : https://metascience-lab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "metascience-lab/metascience-lab.github.io"
+repository               : "UW-Madison-Meta-Science-Lab/metascience-lab.github.io"
 teaser                   : "profile.png"# filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
