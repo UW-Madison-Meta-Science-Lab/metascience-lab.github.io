@@ -3,9 +3,6 @@ main:
   - title: "Publications"
     url: /publications/ 
   
-    
-  - title: "Project"
-    url: /Project/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
@@ -13,5 +10,5 @@ main:
   - title: "People"
     url: /people/
     
-  - title: "Guide"
-    url: /markdown/
+  - title: "Projects"
+    url: /projects/
