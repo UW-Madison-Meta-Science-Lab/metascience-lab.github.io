@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Faculty
+Project Instructors
 ======
 * ## [Ian Hutchins](https://hutchinslab.github.io/)
 
