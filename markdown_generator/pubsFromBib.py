@@ -98,9 +98,9 @@ for pubsource in publist:
             #Build Citation from text
             citation = ""
 
-            #citation authors - todo - add highlighting for primary author1?
-            for author1 in bibdata.entries[bib_id].persons["author1"]:
-                citation = citation+" "+author1.first_names[0]+" "+author1.last_names[0]+", "
+            #citation authors - todo - add highlighting for primary author?
+            for author in bibdata.entries[bib_id].persons["author"]:
+                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
