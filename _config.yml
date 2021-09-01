@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Meta-Science Lab"
+title                    : "Meta-Science Research Lab"
 title_separator          : "-"
-name                     : &name "Meta-Science Lab"
+name                     : &name "Meta-Science Research Lab"
 description              : &description "The Metascience Research Lab"
 url                      : https://metascience-lab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
