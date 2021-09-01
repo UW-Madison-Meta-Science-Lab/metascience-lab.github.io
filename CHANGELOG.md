@@ -12,7 +12,7 @@
 
 ### Bug Fixes
 
-- Don't add `<a>` to author1 name if URL is blank.
+- Don't add `<a>` to author name if URL is blank.
 
 ## [3.4.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.0)
 
@@ -99,7 +99,7 @@
 ### Maintenance
 
 - Update gems: `github-pages` (86), `ffi` 1.9.13, `jekyll-mentions` 1.1.3, and `rouge` 1.11.1
-- Fix note about custom sidebar content appearing below author1 profile. [#388](https://github.com/mmistakes/minimal-mistakes/issues/388)
+- Fix note about custom sidebar content appearing below author profile. [#388](https://github.com/mmistakes/minimal-mistakes/issues/388)
 
 ## [3.2.13](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.2.13)
 
@@ -116,13 +116,13 @@
 
 ### Bug Fixes
 
-- Fix author1 override conditional where a missing `authors.yml` would show broken sidebar content. Defaults to `site.author1`. [#376](https://github.com/mmistakes/minimal-mistakes/pull/376)
+- Fix author override conditional where a missing `authors.yml` would show broken sidebar content. Defaults to `site.author`. [#376](https://github.com/mmistakes/minimal-mistakes/pull/376)
 
 ## [3.2.11](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.2.11)
 
 ### Bug Fixes
 
-- Fix disappearing author1 sidebar links [#372](https://github.com/mmistakes/minimal-mistakes/issues/372)
+- Fix disappearing author sidebar links [#372](https://github.com/mmistakes/minimal-mistakes/issues/372)
 
 ### Maintenance
 
@@ -155,7 +155,7 @@
 
 ### Bug Fixes
 
-- Remove `cursor: pointer` that appears on white-space surrounding author1 side list items and links. [#354](https://github.com/mmistakes/minimal-mistakes/pull/354)
+- Remove `cursor: pointer` that appears on white-space surrounding author side list items and links. [#354](https://github.com/mmistakes/minimal-mistakes/pull/354)
 
 ### Maintenance
 
@@ -193,7 +193,7 @@
 
 ### Bug Fixes
 
-- Fix alignment of icons in author1 sidebar [#341](https://github.com/mmistakes/minimal-mistakes/issues/341)
+- Fix alignment of icons in author sidebar [#341](https://github.com/mmistakes/minimal-mistakes/issues/341)
 
 ### Maintenance
 
@@ -261,7 +261,7 @@
 
 ### Maintenance
 
-- Fix `www` and `https` links in author1 profile include [#293](https://github.com/mmistakes/minimal-mistakes/pull/293)
+- Fix `www` and `https` links in author profile include [#293](https://github.com/mmistakes/minimal-mistakes/pull/293)
 
 ## [3.1.4](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.1.4)
 
@@ -282,7 +282,7 @@
 - Fix `author_profile` toggle when assigned in a `_layout` [#285](https://github.com/mmistakes/minimal-mistakes/issues/285)
 - Fix typo in `build:all` npm script [#283](https://github.com/mmistakes/minimal-mistakes/pull/283)
 - Fix URL typo documentation [#287](https://github.com/mmistakes/minimal-mistakes/issues/287)
-- SEO author1 bug. If `twitter.username` is set and `author1.twitter` is `nil` bad things happen. [#289](https://github.com/mmistakes/minimal-mistakes/issues/289)
+- SEO author bug. If `twitter.username` is set and `author.twitter` is `nil` bad things happen. [#289](https://github.com/mmistakes/minimal-mistakes/issues/289)
 
 ## [3.1.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.1.2)
 
@@ -293,7 +293,7 @@
 
 ### Bug Fixes
 
-- Fix alignment issues with related posts [#273](https://github.com/mmistakes/minimal-mistakes/issues/273) and "Follow" button in author1 profile [#274](https://github.com/mmistakes/minimal-mistakes/issues/274).
+- Fix alignment issues with related posts [#273](https://github.com/mmistakes/minimal-mistakes/issues/273) and "Follow" button in author profile [#274](https://github.com/mmistakes/minimal-mistakes/issues/274).
 
 ## [3.1.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.1.1)
 
@@ -306,17 +306,17 @@
 ### Enhancements
 
 - Updated [Font Awesome](https://fortawesome.github.io/Font-Awesome/whats-new/) to version 4.6.1
-- Added optional GitHub and Bitbucket links to footer if set on `site.author1` in `_config.yml`.
+- Added optional GitHub and Bitbucket links to footer if set on `site.author` in `_config.yml`.
 
 ### Bug Fixes
-- Fixed Bitbucket URL typo in author1 sidebar.
+- Fixed Bitbucket URL typo in author sidebar.
 
 ## [3.0.3](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.0.3)
 
 ### Enhancements
 
 - Rebuilt the entire theme: layouts, includes, stylesheets, scripts, you name it.
-- Refreshed the look and feel while staying true to the original design of the theme (author1 sidebar/main content).
+- Refreshed the look and feel while staying true to the original design of the theme (author sidebar/main content).
 - Replaced grid system with [Susy](http://susy.oddbird.net/).
 - Replaced Grunt tasks with `npm` scripts.
 - Removed Google Fonts and replaced with system fonts to improve performance (they can be [added back](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/) if desired)
@@ -328,7 +328,7 @@
 - Added optional "reading time" meta data.
 - Improved Liquid used for Twitter Cards and Open Graph data in `<head>`.
 - Improved `gallery` include helper and added `feature_row` for use with splash page layout.
-- Added Keybase.io, author1 web URI, and Bitbucket optional links to sidebar.
+- Added Keybase.io, author web URI, and Bitbucket optional links to sidebar.
 - Add `feed.xml` link to footer.
 - Added a [UI text data file](https://mmistakes.github.io/minimal-mistakes/docs/ui-text/) to easily change all text found in the theme.
 - Added LinkedIn to optional social share buttons.
@@ -354,7 +354,7 @@
 
 ### Enhancements
 
-- Add optional CodePen icon/url to author1 side bar [#156](https://github.com/mmistakes/minimal-mistakes/pull/156)
+- Add optional CodePen icon/url to author side bar [#156](https://github.com/mmistakes/minimal-mistakes/pull/156)
 - Documented Stackoverflow username explanation in `_config.yml` [#157](https://github.com/mmistakes/minimal-mistakes/pull/157)
 - Simplified Liquid in `post-index.html` to better handle year listings [#166](https://github.com/mmistakes/minimal-mistakes/pull/166)
 
@@ -367,7 +367,7 @@
 
 ### Enhancements
 
-- Add optional XING profile link to author1 sidebar
+- Add optional XING profile link to author sidebar
 - Include open graph meta tags for feature image (if assigned) [#149](https://github.com/mmistakes/minimal-mistakes/issues/149)
 - Create an include for feed footer
 
@@ -375,7 +375,7 @@
 
 - Remove http protocol from Google search form on sample 404 page
 - Only show related posts if there are one or more available
-- Fix alignment of email address link in author1 sidebar
+- Fix alignment of email address link in author sidebar
 
 ## [2.1.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/2.1.0)
 
@@ -385,18 +385,18 @@
 
 ![social sharing buttons](https://cloud.githubusercontent.com/assets/1376749/5860522/d9f28a96-a22f-11e4-9b83-940a3a9a766a.png)
 
-- Add Soundcloud, YouTube ([#95](https://github.com/mmistakes/minimal-mistakes/pull/95)), Flickr ([#119](https://github.com/mmistakes/minimal-mistakes/pull/119)), and Weibo ([#116](https://github.com/mmistakes/minimal-mistakes/pull/116)) icons for use in author1 sidebar.
+- Add Soundcloud, YouTube ([#95](https://github.com/mmistakes/minimal-mistakes/pull/95)), Flickr ([#119](https://github.com/mmistakes/minimal-mistakes/pull/119)), and Weibo ([#116](https://github.com/mmistakes/minimal-mistakes/pull/116)) icons for use in author sidebar.
 - Fix typos in posts and documentation and remove references to Less
 - Include note about Octopress gem being optional
-- Post author1 override support extended to the Atom feed ([#71](https://github.com/mmistakes/minimal-mistakes/pull/71))
-- Only include email address in feed if specified in `_config.yml` or author1 `_data`
+- Post author override support extended to the Atom feed ([#71](https://github.com/mmistakes/minimal-mistakes/pull/71))
+- Only include email address in feed if specified in `_config.yml` or author `_data`
 - Wrap all page content in `#main` to harmonize article and post index styles ([#86](https://github.com/mmistakes/minimal-mistakes/issues/86))
 - Include new sample feature images for posts and pages
 - Table of contents improvements: fix collapse toggle, indent nested elements, show on small screens, and create an `_include` for reusing in posts and pages.
 - Include note about running Jekyll with `bundle exec` when using Bundler
 - Fix home page path in top navigation
 - Remove Google Authorship ([#120](https://github.com/mmistakes/minimal-mistakes/issues/120))
-- Remove duplicate author1 content that displayed in `div.article-author1-bottom`
+- Remove duplicate author content that displayed in `div.article-author-bottom`
 - Removed unused `_sass/print.scss` styles
 - Improve comments in `.scss` files
 
@@ -406,7 +406,7 @@
 
 ### Enhancements
 
-- Added new icons and profile links for Stackoverflow, Dribbble, Pinterest, Foursquare, and Steam to the author1 bio sidebar.
+- Added new icons and profile links for Stackoverflow, Dribbble, Pinterest, Foursquare, and Steam to the author bio sidebar.
 - Cleaned up the Kramdown auto table of contents styling to be more readable
 - Removed page width specific .less stylesheets and created mixins for easier updating
 - Removed Modernizr since it wasn't being used
