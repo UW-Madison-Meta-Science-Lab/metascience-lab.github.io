@@ -8,8 +8,15 @@ redirect_from:
   - /about.html
 ---
 
+About Us
+====
+The Metascience Research Lab is the nexus for research on the Science of Science, Science Policy, and Scientometrics at the iSchool of University of Wisconsin-Madison. 
 
-The Metascience Research Lab is the nexus for research on the Science of Science, Science Policy, and Scientometrics at the iSchool of University of Wisconsin-Madison. We study complex data to identify insights for accelerating research advances, cultivating a competitive scientific workforce, and facilitating scientific knowledge transfer. Our goal is to provide evidence to inform policies and practices on effective scientific resource allocation, strategy development, and infrastructure building
+We study complex data to identify insights for accelerating research advances, cultivating a competitive scientific workforce, and facilitating scientific knowledge transfer. 
+
+Our goal
+=====
+Our goal is to provide evidence to inform policies and practices on effective scientific resource allocation, strategy development, and infrastructure building
 
 ---
 <!--
