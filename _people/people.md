@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-### Project Instructors
+### Faculty Members
 * ##### [Ian Hutchins](https://hutchinslab.github.io/)
 
 * ##### [Chaoqun Ni](https://chaoqunni.github.io/)
@@ -18,7 +18,7 @@ redirect_from:
 
 
 
-### PhD Students
+### Student Members
 
 * ##### [Salsabil Arabi](https://ischool.wisc.edu/blog/staff/arabi-salsabil/)
 
