@@ -83,7 +83,7 @@ author:
   name             : # ""
   avatar           : "profile.png"
   bio              : #"Your biography for the left-hand sidebar"
-  location         : "4217 Helen C. White Hall"
+  location         : "4217 Helen C. White Hall, 600 N. Park Street, Madison, WI 53706"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "UW-Madison-Meta-Science-Lab" #"academicpages"
+  github           : "MetascienceLab" #"academicpages"
   google_plus      :
   keybase          :
   instagram        :
