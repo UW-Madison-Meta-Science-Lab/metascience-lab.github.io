@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Meta-Science Research Lab"
+title                    : "Metascience Research Lab"
 title_separator          : "-"
 name                     : &name "Meta-Science Research Lab"
 description              : &description "The Metascience Research Lab"
-url                      : https://uw-madison-meta-science-lab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://metasciencelab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "uw-madison-meta-science-lab/uw-madison-meta-science-lab.github.io"
+repository               : "MetascienceLab/MetascienceLab.github.io"
 teaser                   : "profile.png"# filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
