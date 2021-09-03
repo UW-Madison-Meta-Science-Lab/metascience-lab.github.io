@@ -9,7 +9,7 @@ redirect_from:
 ---
 We are the Metascience Research Lab (MSRL) at the [Information School of University of Wisconsin-Madison](http://ischool.wisc.edu/)!
 
-MSRL is the nexus for research on the Science of Science, Science Policy, and Scientometrics at [iSchool](http://ischool.wisc.edu/). We study complex data to identify insights for accelerating research advances, cultivating a competitive scientific workforce, and facilitating scientific knowledge transfer. Our goal is to provide evidence to inform policies and practices on effective scientific resource allocation, strategy development, and infrastructure building
+MSRL is the nexus for research on the Science of Science, Science Policy, and Scientometrics at [iSchool](http://ischool.wisc.edu/). We study complex data to identify insights for accelerating research advances, cultivating a competitive scientific workforce, and facilitating scientific knowledge transfer. Our goal is to provide evidence to inform policies and practices on effective scientific resource allocation, strategy development, and infrastructure building.
 
 ---
 <!--
